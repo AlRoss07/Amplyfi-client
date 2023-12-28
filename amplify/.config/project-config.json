@@ -1,0 +1,17 @@
+{
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "Amplyficlient",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "src",
+      "DistributionDir": "buils",
+      "BuildCommand": "cmd run-script build",
+      "StartCommand": "cmd run-script start"
+    }
+  }
+}
